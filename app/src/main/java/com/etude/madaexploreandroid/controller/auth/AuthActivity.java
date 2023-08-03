@@ -17,7 +17,7 @@ public class AuthActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .setReorderingAllowed(true)
-                    .add(R.id.fragment_container_view, SubscribeFragment.class, null)
+                    .add(R.id.fragment_container_view, LoginFragment.class, null)
                     .commit();
         }
     }
