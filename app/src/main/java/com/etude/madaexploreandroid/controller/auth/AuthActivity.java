@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.etude.madaexploreandroid.R;
 import com.etude.madaexploreandroid.controller.auth.login.LoginFragment;
+import com.etude.madaexploreandroid.controller.auth.subscribe.SubscribeFragment;
 
 public class AuthActivity extends AppCompatActivity {
 
@@ -16,7 +17,7 @@ public class AuthActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .setReorderingAllowed(true)
-                    .add(R.id.fragment_container_view, LoginFragment.class, null)
+                    .add(R.id.fragment_container_view, SubscribeFragment.class, null)
                     .commit();
         }
     }

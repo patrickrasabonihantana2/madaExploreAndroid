@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".controller.auth.login.LoginFragment">
+    tools:context=".controller.auth.subscribe.SubscribeFragment">
 
     <EditText
-        android:id="@+id/login_user_username"
+        android:id="@+id/subscribe_user_firstname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -18,7 +18,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/login_user_password"
+        android:id="@+id/subscribe_user_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subscribe_user_firstname" />
+
+    <EditText
+        android:id="@+id/subscribe_user_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subscribe_user_lastname" />
+
+    <EditText
+        android:id="@+id/subscribe_user_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -26,15 +48,15 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_user_username" />
+        app:layout_constraintTop_toBottomOf="@+id/subscribe_user_username" />
 
     <Button
-        android:id="@+id/auth_button_login"
+        android:id="@+id/auth_button_subscribe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/auth_button_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_user_password" />
+        app:layout_constraintTop_toBottomOf="@+id/subscribe_user_password" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

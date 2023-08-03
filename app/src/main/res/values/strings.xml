@@ -2,5 +2,6 @@
     <string name="app_name">Mada Explore Android</string>
     <string name="user_email">Email</string>
     <string name="user_password">Mot de passe</string>
-    <string name="auth_button_login">Login</string>
+    <string name="auth_button_login">Authentification</string>
+    <string name="auth_button_subscribe">Inscription</string>
 </resources>
