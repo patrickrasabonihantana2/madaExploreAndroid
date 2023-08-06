@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_front_home">
+
+    <fragment
+        android:id="@+id/navigation_front_home"
+        android:name="com.etude.madaexploreandroid.controller.front.home.FrontHomeFragment"
+        android:label="@string/title_front_home"
+        tools:layout="@layout/fragment_front_home" />
+
+    <fragment
+        android:id="@+id/navigation_front_search"
+        android:name="com.etude.madaexploreandroid.controller.front.search.FrontSearchFragment"
+        android:label="@string/title_front_search"
+        tools:layout="@layout/fragment_front_search" />
+
+    <fragment
+        android:id="@+id/navigation_front_publish"
+        android:name="com.etude.madaexploreandroid.controller.front.publish.FrontPublishFragment"
+        android:label="@string/title_front_publish"
+        tools:layout="@layout/fragment_front_publish" />
+
+    <fragment
+        android:id="@+id/navigation_front_notification"
+        android:name="com.etude.madaexploreandroid.controller.front.notification.FrontNotificationFragment"
+        android:label="@string/title_front_notification"
+        tools:layout="@layout/fragment_front_notification" />
+
+    <fragment
+        android:id="@+id/navigation_front_profil"
+        android:name="com.etude.madaexploreandroid.controller.front.profil.FrontProfilFragment"
+        android:label="@string/title_front_profil"
+        tools:layout="@layout/fragment_front_profil" />
+</navigation>

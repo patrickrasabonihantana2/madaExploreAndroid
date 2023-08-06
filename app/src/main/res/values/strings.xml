@@ -10,4 +10,10 @@
     <string name="auth_button_subscribe">Inscription</string>
     <string name="auth_link_button_subscribe">S\'inscrire</string>
     <string name="auth_link_button_login">S\'authentifier</string>
+    <string name="title_activity_front">FrontActivity</string>
+    <string name="title_front_home">Acceuil</string>
+    <string name="title_front_search">Recherche</string>
+    <string name="title_front_publish">Publier</string>
+    <string name="title_front_notification">Notifications</string>
+    <string name="title_front_profil">Profil</string>
 </resources>
